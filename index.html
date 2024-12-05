@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Xây dựng phòng Lab AI</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+
+        <img src="https://online.hcmue.edu.vn/static/media/Logo_Login.92cef6d3.png" alt="">
+        <img src="https://hcmue.edu.vn/images/Faculty_Logos/CNTT.png" alt="">
+        <h1 class="sitename">Lab AI</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#testimonials">Devices</a></li>
+          <li><a href="#faq-2">FAQS</a></li>
+           <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1 style="text-transform: uppercase;">Module phòng thực hành cho trường phổ thông</h1>
+            <p>Dựa trên cấu hình TinyPC HP</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p style="font-weight: 600; font-size: 25px;">
+              Nhiệm vụ của dự án
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span> Đảm bảo tiến độ hoàn thành việc lắp đặt và xây dựng Module
+                  phòng thực hành cho trường phổ thông.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Hệ thống hạ tầng vận hành ổn định, an toàn, nhanh chóng,
+                  giúp nâng cao chất lượng cơ sở hạ tầng, tạo điều kiện thuận lợi để học sinh có thể thực hành.</span>
+              </li>
+              <li><i class="bi bi-check2-circle"></i> <span>Thiết kế hệ thống dễ dàng sử dụng, dễ dàng lắp đặt và sửa
+                  chữa, có tính chất mở rộng và tạo sự chuyên nghiệp.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>Việc xây dựng phòng thực hành tại trường phổ thông đóng vai trò quan trọng trong việc nâng cao chất lượng
+              giáo dục và ứng dụng công nghệ thông tin trong giảng dạy. Dựa trên cấu hình TinyPC HP, dự án hướng đến
+              việc thiết lập một không gian học tập hiện đại, gọn nhẹ, phù hợp với điều kiện sử dụng tại các trường phổ
+              thông.</p>
+            <a href="#!" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <!-- <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Eum ipsam laborum deleniti </span><strong>velit pariatur architecto aut nihil</strong></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+            </div> -->
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3 style="text-transform: uppercase; font-family: sans-serif;"><span
+                    style="font-family: sans-serif;">01</span>Sự cần thiết đầu tư
+                </h3>
+                <div class="faq-content">
+                  <p>Xây dựng dự án đạt hiệu quả cao, vừa đáp ứng nhu cầu là vận hành tốt chương trình học tập của học
+                    sinh trung học phổ thông tạo sự chuyên nghiệp cho hệ thống học cụ của Tổ Toán Tin, trường Trung học
+                    Thực hành Đại học Sư Phạm TPHCM
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3 style="text-transform: uppercase; font-family: sans-serif;"><span
+                    style="font-family: sans-serif;">02</span>Quy mô đầu tư
+                </h3>
+                <div class="faq-content">
+                  <p>
+
+
+                  <h3>Thiết bị chính</h3>
+                  <ul>
+                    <li><strong>Máy tính làm việc (Workstation):</strong></li>
+                    <li>01 Máy Workstation Desktop Xeon® W3-2425, 12GPU, RAM 32GB, SSD 1TB.</li>
+                    <li>40 Máy Mini Desktop PC Core® i5 13500T, 14 nhân, RAM 16GB, SSD 512GB.</li>
+                    <li><strong>Thiết bị ngoại vi:</strong></li>
+                    <li>41 Bàn phím và chuột có dây.</li>
+                    <li>41 Tai nghe.</li>
+                  </ul>
+
+                  <h3>Thiết bị mạng và kết nối</h3>
+                  <ul>
+                    <li>01 Router.</li>
+                    <li>01 Switch 48-Port.</li>
+                    <li>01 Switch chuyên dụng cho camera.</li>
+                    <li>01 Hộp đầu mạng Cat6.</li>
+                    <li>01 Thùng cáp mạng Cat6.</li>
+                  </ul>
+
+                  <h3>Thiết bị trình chiếu và âm thanh</h3>
+                  <ul>
+                    <li><strong>Trình chiếu:</strong></li>
+                    <li>01 Máy chiếu Laser.</li>
+                    <li>01 Màn chiếu điện 135 inch (16:9).</li>
+                    <li><strong>Âm thanh:</strong></li>
+                    <li>01 Amply đa vùng.</li>
+                    <li>02 Micro không dây.</li>
+                    <li>02 Cặp loa treo tường.</li>
+                  </ul>
+
+                  <h3>Thiết bị giám sát và điều hòa không khí</h3>
+                  <ul>
+                    <li>02 Camera IP 4.0 Megapixel.</li>
+                    <li>01 Máy lạnh âm trần Inverter 5 HP.</li>
+                    <li>06 Quạt treo tường.</li>
+                  </ul>
+
+                  <h3>Trang bị nội thất</h3>
+                  <ul>
+                    <li>20 Bàn phòng học đôi.</li>
+                    <li>01 Bàn máy tính.</li>
+                    <li>41 Ghế xoay.</li>
+                    <li>01 Bảng từ 1200 x 360.</li>
+                    <li>01 Bảng từ di động 1200 x 2400.</li>
+                  </ul>
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3 style="font-family: sans-serif; text-transform: uppercase;"><span
+                    style="font-family: sans-serif;">03</span>Phân tích và định hướng lựa chọn công nghệ</h3>
+                <div class="faq-content">
+                  <p>
+
+
+                  <h3>1. Công nghệ mạng phổ biến</h3>
+                  <ul>
+                    <li><strong>Mạng có dây (LAN - Ethernet):</strong></li>
+                    <li>Tính ổn định cao, tốc độ truyền tải dữ liệu nhanh, phù hợp với hệ thống có số lượng thiết bị
+                      lớn.</li>
+                    <li>Sử dụng cáp mạng Cat6 đảm bảo tốc độ truyền tải lên đến 10Gbps.</li>
+                    <li>Quản lý mạng dễ dàng với Switch 48-Port.</li>
+                  </ul>
+
+                  <h3>2. Phân tích hiệu quả của hệ thống sau khi đầu tư</h3>
+                  <ul>
+                    <li>Hệ thống mạng ổn định, đảm bảo khả năng vận hành liên tục cho các thiết bị trong phòng thực
+                      hành.</li>
+                    <li>Nâng cao hiệu quả giảng dạy và học tập nhờ tốc độ xử lý nhanh và khả năng kết nối đồng bộ.</li>
+                    <li>Tối ưu chi phí vận hành nhờ thiết bị hiện đại với khả năng tiết kiệm năng lượng.</li>
+                  </ul>
+
+                  <h3>3. Tổng mức đầu tư của dự án</h3>
+                  <ul>
+                    <li><strong>Chi phí đầu tư:</strong></li>
+                    <ul>
+                      <li>Chi phí lắp đặt: 30,000,000 VNĐ.</li>
+                      <li>Chi phí máy móc, thiết bị: 2,000,000,000 VNĐ.</li>
+                      <li>Các chi phí khác (khảo sát, lập dự án, thẩm định,…): 20,000,000 VNĐ.</li>
+                    </ul>
+                    <li><strong>Nguồn vốn đầu tư:</strong> 2,300,000,000 VNĐ.</li>
+                  </ul>
+
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3 style="font-family: sans-serif; text-transform: uppercase;"><span
+                    style="font-family: sans-serif;">04</span>Tổ chức thực hiện, cơ chế quản lý và khai thác dự án đầu
+                  tư</h3>
+                <div class="faq-content">
+                  <p>
+                  <ul>
+                    <li><strong>Đối với rủi ro về cơ sở hạ tầng:</strong></li>
+                    <ul>
+                      <li>Một số rủi ro có thể phát sinh khi không tìm được vị trí thích hợp để đặt phòng học Module
+                        phòng thực hành.</li>
+                      <li>Giải pháp: Thay thế bằng một phòng Tin học tại dãy nhà C, khu vực Trường Đại học Sư phạm Thành
+                        phố Hồ Chí Minh (Trụ sở chính), hoặc thay thế một phòng ở dãy nhà I thuộc Khoa Công nghệ Thông
+                        tin.</li>
+                    </ul>
+                    <li><strong>Đối với rủi ro về chất lượng sản phẩm:</strong></li>
+                    <ul>
+                      <li>Các nguồn hàng sẽ được chọn từ những nhà cung cấp có uy tín cao trên thị trường.</li>
+                      <li>Thành lập hội đồng thẩm định để kiểm tra chất lượng, giá cả, và độ tin cậy của nhà cung cấp,
+                        đảm bảo mua đúng hàng chính hãng, tránh thiết bị không rõ nguồn gốc.</li>
+                    </ul>
+                  </ul>
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a style="font-family: sans-serif;" href="" class="stretched-link">Đào tạo và huấn luyện</a></h4>
+              <p>Hướng dẫn sử dụng các công cụ và thư viện phổ biến như TensorFlow, PyTorch, Scikit-learn, Keras, v.v.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" style="font-family: sans-serif;" class="stretched-link">Cung cấp tài nguyên tính toán</a>
+              </h4>
+              <p>Truy cập vào máy chủ hiệu năng cao (High-Performance Computing) với GPU/TPU để chạy các mô hình AI phức
+                tạp.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" style="font-family: sans-serif;" class="stretched-link">Hỗ trợ nghiên cứu</a></h4>
+              <p>Kết nối với các chuyên gia AI để giải quyết vấn đề kỹ thuật hoặc cải tiến phương pháp.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" style="font-family: sans-serif;" class="stretched-link">Hỗ trợ khởi nghiệp</a></h4>
+              <p>Cung cấp tài nguyên, kỹ thuật và cơ sở vật chất để thúc đẩy phát triển sản phẩm.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+          
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg"
+                  class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Thanh Viết</h4>
+                <span>Member</span>
+
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg"
+                  class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Thanh Tuyền</h4>
+                <span>Member</span>
+
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg"
+                  class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Đoan Trang</h4>
+                <span>Member</span>
+
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg"
+                  class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Mỹ Ngọc</h4>
+                <span>Member</span>
+
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg"
+                  class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Kim Hà</h4>
+                <span>Member</span>
+
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Devices</h2>
+
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://phucanhcdn.com/media/product/250_54302_1.jpg" class="testimonial-img" alt="">
+                <h3>Mini PC HP Pro 260 G9 9H092PT (Core i3 1315U/ 8GB/ 256Gb SSD/ Win11/ 1Y)
+                </h3>
+
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://phucanhcdn.com/media/product/54801_2.jpg" class="testimonial-img" alt="">
+                <h3>Mini PC HP Elite 600 G9 9H095PT (I5 13500/ 8GB/ 512GB SSD/ Win11/ 3Y)
+                </h3>
+
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://phucanhcdn.com/media/product/250_54794_2.jpg" class="testimonial-img" alt="">
+                <h3>Mini PC HP Pro 260 G9 9H093PT (i5 1335U/ 8GB/ 256Gb SSD/ Win11/ 1Y)
+                </h3>
+
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://phucanhcdn.com/media/product/53525_may_tinh_mini_hp_elite_mini_800_g9_8u8k8pa_1.jpg"
+                  class="testimonial-img" alt="">
+                <h3>Mini PC HP Elite 800 G9 8U8K8PA (I7 13700/ 16GB/ 512GB SSD/ Win 11 Pro/ 3Y)
+                </h3>
+
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="https://phucanhcdn.com/media/product/52764_may_tinh_de_ban_hp_elitedesk_800g9_small_form_factor_1.jpg"
+                  class="testimonial-img" alt="">
+                <h3>Máy tính để bàn HP EliteDesk 800G9 Small Form Factor 8U8M4PA (Core i5-13500/ Intel Q670/ 8 GB/ 512GB
+                  SSD/ Intel UHD Graphics 770/ Windows 11 Pro)
+                </h3>
+
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+       
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3 style="font-family: sans-serif;">Phòng lab cần những thiết bị gì để phục vụ học AI?</h3>
+                <div class="faq-content">
+                  <p>
+                    Máy tính: Cần máy có GPU mạnh (NVIDIA RTX 30xx trở lên) để xử lý mô hình AI. <br>
+                    Máy chủ (server): Hỗ trợ xử lý mô hình phức tạp và lưu trữ dữ liệu lớn.<br>
+                    Mạng: Kết nối internet tốc độ cao và hệ thống mạng nội bộ ổn định.<br>
+                    Các thiết bị phụ trợ: Màn hình lớn, thiết bị trình chiếu, camera để phục vụ các buổi hội thảo hoặc thực hành.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3 style="font-family: sans-serif;">Nên chọn GPU nào để phục vụ học AI?</h3>
+                <div class="faq-content">
+                  <p>
+                    Các GPU phổ biến: <br>
+                    -NVIDIA RTX 3060/3080/4090 (cho phòng lab cơ bản hoặc trung cấp). <br>
+                    -NVIDIA A100/Tesla (cho phòng lab chuyên sâu hoặc nghiên cứu phức tạp). <br> 
+                    GPU nên có ít nhất 8GB VRAM để xử lý các mô hình AI lớn.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3  style="font-family: sans-serif;"> Chi phí xây dựng phòng lab là bao nhiêu?</h3>
+                <div class="faq-content">
+                  <p>
+                    Cơ bản: Khoảng 200-500 triệu VNĐ (máy tính cấu hình vừa).<br>
+                    Trung cấp: Khoảng 1-2 tỷ VNĐ (thêm máy chủ, GPU mạnh).<br>
+                    Cao cấp: Trên 5 tỷ VNĐ (phòng lab chuyên sâu với nhiều máy chủ).
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3 style="font-family: sans-serif;">Làm sao để đảm bảo an ninh dữ liệu trong phòng lab?</h3>
+                <div class="faq-content">
+                  <p>
+                    Cài đặt tường lửa và phần mềm diệt virus.<br>
+Hạn chế quyền truy cập, chỉ cho phép người có trách nhiệm sử dụng.<br>
+Sử dụng hệ thống lưu trữ an toàn và backup dữ liệu định kỳ.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+             
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p> 280 An Dương Vương, Phường 4, Quận 5, Thành Phố Hồ Chí Minh</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>028 - 38352020</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>phongctct@hcmue.edu.vn</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe
+                src="https://www.google.com/maps/embed/v1/place?q=Trường+Đại+học+Sư+phạm+Thành+phố+Hồ+Chí+Minh,+Đường+An+Đường+Vương,+phường+4,+Quận+5,+Thành+phố+Hồ+Chí+Minh,+Việt+Nam&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2"><span style="color: red; font-weight: 600; margin-right: 5px;">*</span>Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field"  class="pb-2"><span style="color: red; font-weight: 600; margin-right: 5px;">*</span>Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe">
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
